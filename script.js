@@ -14,7 +14,7 @@ onload = function () {
     let chats = [];
 
     add.onclick = function () {
-        if(Math.random()>0.75 && chats.length > 0){
+        if(chats.length === 7){
             let index = Math.floor(Math.random()*chats.length);
             let idToDelete = chats[index];
             chatHandler.deleteMsg(idToDelete);
