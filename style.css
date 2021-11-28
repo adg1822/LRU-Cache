@@ -3,7 +3,14 @@ body{
     height: 100%;
 }
 
+/* 
+#-id
+. class
+read box model
+*/
+
 #container{
+    /* #-id*/
     width: 100%;
     height: 70%;
     display: flex;
