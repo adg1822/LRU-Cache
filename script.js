@@ -2,6 +2,10 @@
 import { ChatHandler, chat_names } from './ChatHandler.js';
 
 onload = function () {
+    // onload ... as website open it will run firstly
+    // document--> DOM, getelemetnid will select all inside div of name 
+    // why use id and classes: 
+    // priority of selector in css  id> class > tag
 
     const chatlist = document.getElementById('chat-list');
     const add = document.getElementById('generate-step');
@@ -30,3 +34,10 @@ onload = function () {
         }
     };
 };
+
+
+modular approach in js
+events in js
+
+
+
