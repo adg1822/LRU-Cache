@@ -2,7 +2,17 @@ body{
     background:#ddd;
     height: 100%;
 }
-
+/*
+# id
+. class
+box model
+!impotant ka use
+what is margin?
+margin: 10px 5px 15px 20px 
+clockwise--->   top right  bottom left 
+visibily : none and display:none me diff?
+visibily me space leke baitha rahega but dikhega nhi but in display me kuych nhi
+*/
 #container{
     width: 100%;
     height: 70%;
